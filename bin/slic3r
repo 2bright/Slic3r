@@ -1,0 +1,5 @@
+#!/bin/bash
+
+thisShDir=$(dirname $(cd $(dirname $0) && pwd))
+
+$thisShDir/slic3r.pl $@
